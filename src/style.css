@@ -21,20 +21,7 @@
     padding-top: 5px;
 }
 
-.cabecalho .menu label{
-    width: 30px;
-    height: 2px;
-    background-color: #D72323;
-    display: block;
-}
-
-.cabecalho .menu label::after{
-    width: 30px;
-    height: 2px;
-    
-}
-
-.cabecalho .menu input{
+.cabecalho .menu label .menu-hamburger{
     display: none;
 }
 

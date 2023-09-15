@@ -1,0 +1,50 @@
+.cabecalho .menu input{
+    display: none;
+}
+
+.cabecalho .menu label{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.cabecalho .menu label .menu-hamburger{
+    width: 25px;
+    height: 2px;
+    background-color: #D72323;
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho .menu label .menu-hamburger:after,
+.cabecalho .menu label .menu-hamburger:before{
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 2px;
+    background-color: #D72323;
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho .menu label .menu-hamburger::before{
+    top: 8px;
+}
+
+.cabecalho .menu label .menu-hamburger::after{
+    bottom: 8px;
+}
+
+.cabecalho .menu input:checked ~ label .menu-hamburger{
+    transform: rotate(45deg);
+}
+
+.cabecalho .menu input:checked ~ label .menu-hamburger::after{
+    transform: rotate(90deg);
+    bottom: 0px;
+}
+.cabecalho .menu input:checked ~ label .menu-hamburger::before{
+    transform: rotate(90deg);
+    top: 0px;
+}

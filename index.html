@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon" />
     <link rel="stylesheet" href="./src/reset.css" />
     <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/menu.css">
     <link rel="stylesheet" href="./src/responsive.css"/>
   </head>
   <body>
@@ -16,16 +17,17 @@
         <img src="./src/images/logo.png" alt="">
       </div>
       <nav class="menu">
-        <label for="menu-hamburguer"></label>
         <input type="checkbox" id="menu-hamburguer">
+        <label for="menu-hamburguer">
+          <div class="menu-hamburger"></div>
+        </label>
         <ul class="lista-de-navegacao flex">
-          <li><a href="#">Solicitar reparo</a></li>
           <li><a href="#">Rifas</a></li>
           <li><a href="#">Aparelhos</a></li>
           <li>
             <a
               href="https://api.whatsapp.com/send?phone=5527988493701&text=Ola,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20conserto"
-              target="_blank">Solicitar um orçamento</a
+              target="_blank">Solicitar orçamento</a
             >
           </li>
         </ul>
