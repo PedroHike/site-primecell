@@ -12,17 +12,11 @@
     padding: 10px 0;
     justify-content: space-around;
     align-items: center;
-    border-bottom-left-radius: 20px ;
-    border-bottom-right-radius: 20px ;
 }
 
 .cabecalho .logo img{
     height: 70px;
     padding-top: 5px;
-}
-
-.cabecalho .menu label .menu-hamburger{
-    display: none;
 }
 
 .cabecalho .menu .lista-de-navegacao li a{
@@ -96,6 +90,7 @@
 .destaques .container ul li{
     width: 265px;
     align-items: center;
+    padding: 10px;
 }
 
 .destaques .container ul li img{
@@ -109,9 +104,14 @@
     text-align: center;
     justify-content: center;
     margin: 50px 0;
+    width: 100%;
 }
 
 .localizacao h2{
     margin-bottom: 30px;
     text-transform: uppercase;
+}
+
+.localizacao .container .mapa{
+    width: 900px;
 }
