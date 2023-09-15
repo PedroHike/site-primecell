@@ -9,10 +9,12 @@
 }
 
 .cabecalho{
-    align-items: center;
     padding: 10px 0;
     justify-content: center;
+    align-items: center;
     gap: 100px;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
 }
 
 
@@ -22,7 +24,6 @@
 }
 
 .cabecalho .menu .lista-de-navegacao li a{
-    padding: ;
     margin-left: 30px;
     /* text-transform: uppercase; */
     font-size: 12px;
@@ -39,26 +40,76 @@
 
 .corpo .principal{
     max-width: 900px;
-    margin: 80px auto;
+    margin: auto;
+}
+
+.corpo .principal .container{
+    padding: 50px 0;
 }
 
 .corpo .principal h1{
     max-width: 730px;
     font-size: 42px;
     font-weight: 700;
-    color: #6e6e73;
+    color: #3E3636;
     margin-bottom: 20px;
 }
 
 .corpo .principal h1 span{
-    color: #000;
+    color: #D72323;
 }
 
 .corpo .principal .container button a{
     padding: 10px 20px;
     background-color: #fff;
-    border: 1px solid #D72323;
+    border: 2px solid #D72323;
     border-radius: 20px;
     font-weight: 500;
     color: #D72323;
+    transition: 0.2s ease-in-out;
+}
+
+.corpo .principal .container button a:hover{
+    background-color: rgb(102, 220, 102);
+    color: #fff;
+    border:2px solid #fff;
+    box-shadow: 0 0 5px rgb(102, 220, 102);
+}
+
+.corpo .principal img{
+    width: 40%;
+    align-self: flex-end;
+}
+
+.destaques{
+    background-color: #000;
+}
+
+.destaques .container ul{
+    justify-content: space-around;
+    color: #fff;
+    height: 100px;
+    align-items: center;
+}
+
+.destaques .container ul li{
+    width: 250px;
+    align-items: center;
+}
+
+.destaques .container ul li img{
+    filter: invert(1);
+    width: 40px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.corpo .localizacao{
+    text-align: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.corpo .localizacao h2{
+    margin-bottom: 30px;
 }
