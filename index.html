@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon" />
     <link rel="stylesheet" href="./src/reset.css" />
     <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/responsive.css"/>
   </head>
   <body>
     <header class="cabecalho flex">
@@ -15,6 +16,8 @@
         <img src="./src/images/logo.png" alt="">
       </div>
       <nav class="menu">
+        <label for="menu-hamburguer"></label>
+        <input type="checkbox" id="menu-hamburguer">
         <ul class="lista-de-navegacao flex">
           <li><a href="#">Solicitar reparo</a></li>
           <li><a href="#">Rifas</a></li>
@@ -22,7 +25,7 @@
           <li>
             <a
               href="https://api.whatsapp.com/send?phone=5527988493701&text=Ola,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20conserto"
-              >Solicitar um orçamento</a
+              target="_blank">Solicitar um orçamento</a
             >
           </li>
         </ul>
@@ -36,7 +39,7 @@
             smartphone.
           </h1>
           <button>
-            <a href="https://api.whatsapp.com/send/?phone=5527988493701&text&type=phone_number& app_absent=0">Entre em contato</a>
+            <a href="https://api.whatsapp.com/send/?phone=5527988493701&text&type=phone_number& app_absent=0" target="_blank">Entre em contato</a>
           </button>
         </div>
         <img src="src/images/avatar.webp" alt="">

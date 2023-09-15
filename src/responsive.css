@@ -1,0 +1,35 @@
+@media(max-width:1000px){
+    .principal{
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:850px){
+    .principal h1{
+        font-size: 30px;
+    }
+
+    .destaques .container ul li{
+        width: 200px;
+        align-items: center;
+    }
+
+    .destaques .container ul li img{
+        width: 30px;
+    }
+
+    .destaques .container ul li p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:675px){
+    .cabecalho{
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .cabecalho .menu .lista-de-navegacao{
+        display: none;
+    }
+}
