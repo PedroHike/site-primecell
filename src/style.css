@@ -10,7 +10,7 @@
 
 .cabecalho{
     padding: 10px 0;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
