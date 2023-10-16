@@ -7,6 +7,7 @@
 @media(max-width:850px){
     .principal h1{
         font-size: 30px;
+        line-height: 35px;
     }
 
     .destaques .container ul li{
