@@ -48,6 +48,7 @@
     font-weight: 700;
     color: #3E3636;
     margin-bottom: 20px;
+    line-height: 45px;
 }
 
 .principal h1 span{
@@ -83,14 +84,13 @@
 .informacoes .container ul{
     justify-content: space-around;
     color: #fff;
-    height: 100px;
     align-items: center;
 }
 
 .informacoes .container ul li{
     width: 265px;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
 }
 
 .informacoes .container ul li img{
@@ -101,9 +101,12 @@
 }
 
 .aparelhos{
-    margin: 50px 0 0;
-    justify-content: center;
-    align-items: center;
+    margin: 100px 0;
+    width: 100%;
+}
+
+.aparelhos>.container{
+    margin: 0 auto;
 }
 
 .aparelhos .container h2{
@@ -111,26 +114,18 @@
     font-size: 36px;
 }
 
+.aparelhos .container .container.flex{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .aparelhos .align{
     text-align: center;
 }
 
-.aparelhos .iphone img{
-    width: 250px;
-    height: 170px;
-    object-fit: cover;
-}
-
-.aparelhos .relogio img{
-    width: 170px;
-}
-
-.aparelhos .ipad{
-    margin-left: 20px;
-}
-
-.aparelhos .ipad img{
-    width: 100px;
+.aparelhos img{
+    height: 120px;
+    margin: 20px;
 }
 
 .aparelhos p{
@@ -138,11 +133,10 @@
     margin-top: 15px;
 }
 
-
 .localizacao{
     text-align: center;
     justify-content: center;
-    margin: 50px 0;
+    margin: 100px auto;
     width: 100%;
 }
 
