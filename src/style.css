@@ -79,7 +79,7 @@
 
 .informacoes .container ul{
     background-color: #000;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: #fff;
 }
 
