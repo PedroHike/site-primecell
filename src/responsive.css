@@ -16,17 +16,13 @@
         line-height: 35px;
     }
 
-    .destaques .container ul li{
-        width: 200px;
-        align-items: center;
+    .informacoes .container ul .item-lista{
+        display: block;
+        text-align: center;
     }
 
-    .destaques .container ul li img{
-        width: 30px;
-    }
-
-    .destaques .container ul li p{
-        font-size: 12px;
+    .informacoes .container ul .item-lista img{
+        padding-top: 0;
     }
 
     .localizacao .container .mapa{

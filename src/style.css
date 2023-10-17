@@ -85,14 +85,15 @@
 
 .informacoes .container ul .item-lista{
     max-width: 265px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
 .informacoes .container ul li img{
     filter: invert(1);
     width: 45px;
-    margin-bottom: 10px;
+    padding: 10px;
 }
 
 .informacoes .container ul li p{
@@ -138,6 +139,7 @@
 }
 
 .rifa .container{
+    width: 100%;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 6.5%, rgba(0,0,0,1) 73%);
 }
