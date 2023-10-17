@@ -1,0 +1,32 @@
+*{
+    font-family: "montserrat", sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.cabecalho{
+    padding: 10px 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cabecalho .logo img{
+    height: 70px;
+    padding-top: 5px;
+}
+
+.cabecalho .menu .lista-de-navegacao li a{
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    border-bottom: 2px solid #d7232300;
+    transition: all 0.1s ease-in-out;
+    
+}
+
+.cabecalho .menu .lista-de-navegacao li a:hover{
+    border-bottom: 2px solid #D72323;
+}

@@ -1,0 +1,197 @@
+.lista{
+    width: 100%;
+}
+
+.lista ul{
+    justify-content: space-evenly;
+    background-color: #f0ebeb;
+    padding: 20px;
+}
+
+.lista ul li a{
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #f0ebeb;
+}
+
+.lista ul li a:hover{
+    border-bottom: 2px solid #D72323;
+}
+
+.principal{
+    padding: 50px;
+    background-color: #000;
+    align-items: center;
+    flex-direction: column;
+}
+
+.principal h2{
+    color: #c4b7b7;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.principal .imagem{
+    width: 790px;
+    justify-content: end;
+}
+
+.principal .btn{
+    width: 120px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.btn{
+    border-radius: 25px;
+    background-color: #d72323f7;
+    transition: 0.3s ease-in-out;
+}
+
+.principal .btn a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #D72323;
+}
+
+.aparelhos{
+    text-align: center;
+    padding: 80px;
+}
+
+.aparelhos .titulo{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.aparelhos .iphones{
+    justify-content: center;
+}
+
+.aparelhos .iphones .card{
+    margin: 30px;
+}
+
+.aparelhos .iphones .card .cores{
+    justify-content: center;
+    margin: 20px 0 10px;
+}
+
+.aparelhos .iphones .card .cores .cor{
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px #636363;
+}
+
+.aparelhos .iphones .card.quinzepro .cores .titanio-preto{
+    background-color: #464F55;
+}
+
+.aparelhos .iphones .card.quinzepro .cores .titanio-branco{
+    background-color: #F8F9FD;
+}
+
+.aparelhos .iphones .card.quinzepro .cores .titanio-azul{
+    background-color: #0E204C;
+}
+
+.aparelhos .iphones .card.quinzepro .cores .titanio-natural{
+    background-color: #D0D2D4;
+}
+
+.aparelhos .iphones .card p{
+    color: #D72323;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.aparelhos .iphones .card .btn{
+    margin-top: 10px;
+    padding: 5px 15px;   
+}
+
+.aparelhos .iphones .card .btn a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.aparelhos .iphones .card.quinze .cores .titanio-rosa{
+    background-color: #EBD0D2;
+}
+
+.aparelhos .iphones .card.quinze .cores .titanio-amarelo{
+    background-color: #ECE6C6;
+}
+
+.aparelhos .iphones .card.quinze .cores .titanio-verde{
+    background-color: #CFD9C9;
+}
+
+.aparelhos .iphones .card.quinze .cores .titanio-azul{
+    background-color: #D5DDE0;
+}
+
+.aparelhos .iphones .card.quinze .cores .titanio-preto{
+    background-color: #3C4042;
+}
+
+.aparelhos .iphones .card.quatorzepro img,
+.aparelhos .iphones .card.quatorze img{
+    width: 143px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.aparelhos .iphones .card.quatorze .cores,
+.aparelhos .iphones .card.quatorzepro .cores{
+    margin-bottom: 25px;
+}
+
+.aparelhos .iphones .card.quatorze .cores .azul{
+    background-color: #9FB5C8;
+}
+
+.aparelhos .iphones .card.quatorze .cores .roxo{
+    background-color: #E6DCEB;
+}
+
+.aparelhos .iphones .card.quatorze .cores .amarelo{
+    background-color: #F9E479;
+}
+
+.aparelhos .iphones .card.quatorze .cores .preto{
+    background-color: #232931;
+}
+
+.aparelhos .iphones .card.quatorze .cores .branco{
+    background-color: #FAF6F2;
+}
+
+.aparelhos .iphones .card.quatorze .cores .vermelho{
+    background-color: #FC0323;
+}
+
+.aparelhos .iphones .card.quatorzepro .cores .preto{
+    background-color: #312C2E;
+}
+
+.aparelhos .iphones .card.quatorzepro .cores .branco{
+    background-color: #EAEAEA;
+}
+
+.aparelhos .iphones .card.quatorzepro .cores .dourado{
+    background-color: #EADFC5;
+}
+
+.aparelhos .iphones .card.quatorzepro .cores .roxo{
+    background-color: #453C4A;
+}
