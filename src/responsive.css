@@ -1,3 +1,9 @@
+@media(max-width:1140px){
+    .aparelhos .container .container.flex{
+        max-width: 690px;
+    }
+}
+
 @media(max-width:1000px){
     .principal{
         padding: 0 20px;
