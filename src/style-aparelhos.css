@@ -1,17 +1,19 @@
 .lista{
     width: 100%;
+    background-color: #f0ebeb;
 }
 
 .lista ul{
     justify-content: space-evenly;
-    background-color: #f0ebeb;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .lista ul li a{
     color: #000;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 13px;
     transition: 0.3s ease-in-out;
     border-bottom: 2px solid #f0ebeb;
 }
@@ -63,7 +65,7 @@
 
 .aparelhos{
     text-align: center;
-    padding: 80px;
+    padding: 80px 20px;
 }
 
 .aparelhos .titulo{
@@ -73,6 +75,7 @@
 
 .aparelhos .iphones{
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .aparelhos .iphones .card{
