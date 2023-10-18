@@ -36,9 +36,9 @@
     margin-bottom: 30px;
 }
 
-.principal .imagem{
-    width: 790px;
-    justify-content: end;
+.principal .imagem img{
+    width: 100%;
+    transform: translateX(50px);
 }
 
 .principal .btn{
